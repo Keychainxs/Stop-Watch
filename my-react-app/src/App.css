@@ -1,0 +1,41 @@
+/* StopWatch.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Stop-Watch {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .timer-elements {
+    font-size: 2rem;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-elements {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-elements button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-elements button:hover {
+    background-color: #0056b3;
+  }
